@@ -5,7 +5,6 @@
 //    INCLUDES
 //==============================
 
-#include "Character.h"
 
 /**
  * @class Cell
