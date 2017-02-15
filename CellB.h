@@ -55,7 +55,7 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-vector<float> phen_;
+
 float Rbb_;
 float Rbc_;
 };
