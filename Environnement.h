@@ -48,10 +48,11 @@ protected:
 //    ATTRIBUTES
 //==============================
 float Ainit_;
-const int W_; //width
-const int H_; //height
+int W_; //width
+int H_; //height
 int T_ ;
 float D_; //diffusion
+
 
 
 };
