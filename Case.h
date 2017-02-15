@@ -4,7 +4,9 @@
 //==============================
 //    INCLUDES
 //==============================
-
+#include <cstdio>
+#include <cstdlib>
+#include <vector>
 /**
  * @class Case
  * @brief Creates a Case
@@ -16,7 +18,7 @@ public:
 //==============================
 //    CONSTRUCTORS
 //==============================
-  //Case();
+  Case();
 
 //==============================
 //    DESTRUCTOR
@@ -49,10 +51,8 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-float A_;
-float B_;
-float C_;
-Cell cell_;
+vector<float> organites_;
+Cell * cell_;
 };
 
 //==============================
