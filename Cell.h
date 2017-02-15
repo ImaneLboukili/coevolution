@@ -21,6 +21,7 @@ public:
 //==============================
   
   Cell();
+  Cell(float pmut);
 
 //==============================
 //    DESTRUCTOR
@@ -56,6 +57,7 @@ protected:
   float P_death_;
   float W_min_;
   float P_mut_;
+  float w_;
 };
 
 //==============================
