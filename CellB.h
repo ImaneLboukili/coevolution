@@ -6,6 +6,8 @@
 //==============================
 
 #include "Cell.h"
+#include <vector>
+
 
 /**
  * @class CellB
