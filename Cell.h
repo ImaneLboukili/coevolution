@@ -4,7 +4,8 @@
 //==============================
 //    INCLUDES
 //==============================
-
+#include <vector>
+using namespace std;
 
 /**
  * @class Cell
@@ -56,6 +57,8 @@ protected:
   float P_death_;
   float W_min_;
   float P_mut_;
+  float w_;
+  vector<float> phen_;
 };
 
 //==============================

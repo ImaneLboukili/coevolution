@@ -21,7 +21,6 @@ using namespace std;
 //    CONSTRUCTORS
 //==============================
 CellB::CellB(){
-	phen_={0.0,0.0,0.0};
 	Rbb_=0.1;
 	Rbc_=0.1;
 }

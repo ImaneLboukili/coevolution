@@ -21,12 +21,14 @@ Cell::Cell(){
 	P_death_=0.02;
 	W_min_=0.001;
 	P_mut_=0.001;
+	phen_={0.0,0.0,0.0};
 }
 
 Cell::Cell(float pmut){
 	P_death_=0.02;
 	W_min_=0.001;
 	P_mut_=pmut;
+	phen_={0.0,0.0,0.0};
 }
 	
 //==============================
