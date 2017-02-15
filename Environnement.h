@@ -45,9 +45,9 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-float Ainit;
-const int W;
-const int H;
+float Ainit_;
+const int W_;
+const int H_;
 
 };
 //==============================
