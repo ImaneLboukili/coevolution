@@ -7,6 +7,9 @@
 #include <cstdio>
 #include <cstdlib>
 #include <vector>
+#include "Cell.h"
+#include "CellA.h"
+#include "CellB.h" 
 /**
  * @class Case
  * @brief Creates a Case
@@ -19,7 +22,7 @@ public:
 //    CONSTRUCTORS
 //==============================
   Case();
-
+  Case(vector <float> organites, char c);
 //==============================
 //    DESTRUCTOR
 //==============================

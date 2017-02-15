@@ -5,17 +5,18 @@
 //    INCLUDES
 //==============================
 
-#include "Cell.h"
-#include <vector>
 
+#include <vector>
+#include "Cell.h"
+using namespace std; 
 
 /**
  * @class CellA
  * @brief Creates a CellA, Cell
  */
 
-class CellA : public Cell
-{
+class CellA : public Cell{
+	
 public:
 
 //==============================
@@ -27,7 +28,7 @@ public:
 //==============================
 //    DESTRUCTOR
 //==============================
-  virtual ~CellA();
+  //virtual ~CellA();
 
 //==============================
 //    GETTERS
