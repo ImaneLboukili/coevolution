@@ -16,6 +16,8 @@ public:
 //==============================
 //    CONSTRUCTORS
 //==============================
+ Environnement();
+ Environnement(float Ainit,int T,float D);
  
 //==============================
 //    DESTRUCTOR
@@ -46,8 +48,11 @@ protected:
 //    ATTRIBUTES
 //==============================
 float Ainit_;
-const int W_;
-const int H_;
+const int W_; //width
+const int H_; //height
+int T_ ;
+float D_; //diffusion
+
 
 };
 //==============================
