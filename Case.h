@@ -49,10 +49,10 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-float A;
-float B;
-float C;
-Cell cell;
+float A_;
+float B_;
+float C_;
+Cell cell_;
 };
 
 //==============================
