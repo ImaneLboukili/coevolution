@@ -32,5 +32,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {   
+	CellA c = CellA();
+	Cell * c2 = new CellA();
+	char d = 'a' ; 
+	vector <float> organites = {0.3,1.2,2.5};
+	Case cas = Case(organites, d);
   return 0;
 }

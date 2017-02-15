@@ -5,9 +5,10 @@
 //    INCLUDES
 //==============================
 
-#include "Cell.h"
-#include <vector>
 
+#include <vector>
+#include "Cell.h"
+using namespace std;
 
 /**
  * @class CellB
@@ -27,7 +28,7 @@ public:
 //==============================
 //    DESTRUCTOR
 //==============================
-  virtual ~CellB();
+  //virtual ~CellB();
 
 //==============================
 //    GETTERS
