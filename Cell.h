@@ -54,11 +54,11 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-  float P_death_;
-  float W_min_;
-  float P_mut_;
-  float w_;
-  vector<float> phen_;
+  float P_death_; //probability of death at each step of time
+  float W_min_; //minimal fitness
+  float P_mut_; //probability of mutation when the cell is dividing
+  float w_; //fitness of the cell
+  vector<float> phen_; //phenotype : concentration in organites A, B and C
 };
 
 //==============================
