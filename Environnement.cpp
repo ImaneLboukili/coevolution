@@ -27,6 +27,14 @@ Environnement::Environnement(){
 		grille[i] = new Case[W_];
 	}
 }
+
+Environnement::Environnement(float Ainit,int T,float D){
+	Ainit_ = Ainit;
+	W_ = 32; 
+	H_ = 32; 
+	T_ = T;
+	D_ = D;
+}
 //==============================
 //    DESTRUCTOR
 //==============================

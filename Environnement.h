@@ -47,10 +47,10 @@ protected:
 //==============================
 //    ATTRIBUTES
 //==============================
-float Ainit_;
+float Ainit_; //glucose initial concentration
 int W_; //width
 int H_; //height
-int T_ ;
+int T_ ; //frequence of grid cleaning
 float D_; //diffusion
 Case** grille;
 };

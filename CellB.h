@@ -8,6 +8,8 @@
 
 #include <vector>
 #include "Cell.h"
+#include "CellA.h"
+
 using namespace std;
 
 /**
@@ -24,6 +26,7 @@ public:
 //==============================
   
   CellB();
+  
 
 //==============================
 //    DESTRUCTOR
@@ -58,6 +61,8 @@ protected:
 
 float Rbb_;
 float Rbc_;
+float w_; //fitness of the cell
+
 };
 
 //==============================

@@ -37,5 +37,6 @@ int main(int argc, char const *argv[])
 	char d = 'a' ; 
 	vector <float> organites = {0.3,1.2,2.5};
 	Case cas = Case(organites, d);
+	Cell* ce = new CellA();
   return 0;
 }

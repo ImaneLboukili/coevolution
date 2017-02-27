@@ -8,6 +8,8 @@
 
 #include <vector>
 #include "Cell.h"
+#include "CellB.h"
+
 using namespace std; 
 
 /**
@@ -58,6 +60,7 @@ protected:
 
 float Raa_;
 float Rab_;
+float w_; //fitness of the cell
 };
 
 //==============================
