@@ -15,7 +15,11 @@
 //==============================
 //    CONSTRUCTORS
 //==============================
-
+Case::Case(){
+	organites_= {0.,0.,0.};
+	
+	
+}
 Case::Case(vector <float> organites, char c){
   if (c=='a'){
     cell_ = new CellA();}

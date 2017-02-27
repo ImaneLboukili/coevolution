@@ -9,7 +9,7 @@
  * @class Environnement
  * @brief Creates an environnement
  */
-
+#include "Case.h"
 class Environnement
 {
 public:
@@ -52,9 +52,7 @@ int W_; //width
 int H_; //height
 int T_ ;
 float D_; //diffusion
-
-
-
+Case** grille;
 };
 //==============================
 //    GETTER DEFINITION

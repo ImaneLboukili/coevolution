@@ -2,6 +2,7 @@
 //    INCLUDES
 //==============================
 #include "Environnement.h"
+#include "Case.h"
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
@@ -21,6 +22,10 @@ Environnement::Environnement(){
 	H_ = 32; 
 	T_ = 1000;
 	D_ = 0.1;
+	grille  = new Case* [H_];
+	for(int i=0; i<H_;i++){
+		grille[i] = new Case[W_];
+	}
 }
 //==============================
 //    DESTRUCTOR
